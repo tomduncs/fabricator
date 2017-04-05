@@ -1,3 +1,9 @@
 /**
  * Toolkit JavaScript
  */
+
+(function($) {
+
+
+
+})( jQuery );

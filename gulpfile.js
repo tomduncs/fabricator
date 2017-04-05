@@ -41,6 +41,10 @@ const config = {
       dest: 'dist/assets/toolkit/scripts',
       watch: 'src/assets/toolkit/scripts/**/*',
     },
+    jquery: {
+      src: './src/assets/toolkit/scripts/jquery.js',
+      dest: 'dist/assets/toolkit/scripts/jquery.js',
+    },
   },
   images: {
     toolkit: {
