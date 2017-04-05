@@ -1,9 +1,15 @@
-[![GitHub release](https://img.shields.io/github/release/fbrctr/fabricator.svg)]()
-[![Build Status](https://travis-ci.org/fbrctr/fabricator.svg)](https://travis-ci.org/fbrctr/fabricator) [![devDependency Status](https://david-dm.org/fbrctr/fabricator/dev-status.svg)](https://david-dm.org/fbrctr/fabricator#info=devDependencies) [![Join the chat at https://gitter.im/fbrctr/fabricator](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/fbrctr/fabricator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+# tomduncs/fabricator
 
-<p align="center">
-  <img src="http://fbrctr.github.io/assets/toolkit/images/logo.svg" width="500">
-</p>
+This is a fork of [Fabricator](http://fbrctr.github.io), consolidating several modifications that have evolved after use on various projects:
+
+* Loading jQuery as a separate javascript file - this helps to prevent problems when using the toolkit in a Wordpress theme.
+* Renaming structures to modules
+* Adding a third material "elements" for raw unclassed html elements e.g. input, table, button
+* Re-ordering the sidebar
+* Adding a Handlebars helper function "default" e.g. for customising text on a component that is included in multiple places
+* Including Normalize.css
+* Including some other starter css and skeleton structure
+* Minor language/copy changes
 
 # Fabricator
 
