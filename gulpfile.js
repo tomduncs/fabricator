@@ -125,6 +125,13 @@ gulp.task('favicon', () => {
 });
 
 
+var handlebarHelpers = {
+  default: function (value, defaultValue) {
+    return value ? value : defaultValue;
+  }
+}
+
+
 // assembler
 gulp.task('assembler', (done) => {
   assembler({
