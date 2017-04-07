@@ -135,6 +135,7 @@ var handlebarHelpers = {
 // assembler
 gulp.task('assembler', (done) => {
   assembler({
+    helpers: handlebarHelpers,
     logErrors: config.dev,
     dest: config.dest,
   });
